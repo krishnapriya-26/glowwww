@@ -16,14 +16,13 @@ body {
     flex-direction: column;
 }
 
-/* TOP SECTION */
+/* TOP */
 .top {
     height: 20%;
     display: flex;
     background-color: pink;
 }
 
-/* LOGO */
 .logo {
     width: 20%;
     display: flex;
@@ -31,7 +30,6 @@ body {
     align-items: center;
 }
 
-/* HEADER */
 .header {
     width: 80%;
     display: flex;
@@ -39,7 +37,7 @@ body {
     align-items: center;
 }
 
-/* MENU BAR */
+/* MENU */
 .menu {
     height: 10%;
     display: flex;
@@ -53,37 +51,36 @@ body {
     align-items: center;
 }
 
-/* CONTENT AREA */
+/* CONTENT */
 .content {
     height: 70%;
     display: flex;
 }
 
-/* LEFT SERVICES PANEL */
+/* LEFT PANEL */
 .services {
     width: 20%;
     padding: 15px;
-    border-right: 4px solid white;   /* WHITE BAR */
+    border-right: 4px solid white;
 }
 
-/* RIGHT CONTENT PANEL */
+/* RIGHT PANEL */
 .main {
     width: 80%;
     padding: 20px;
     overflow-y: auto;
 }
 
-/* HIDE ALL PAGES */
+/* PAGE SWITCH */
 .page {
     display: none;
 }
 
-/* SHOW CLICKED PAGE */
 .page:target {
     display: block;
 }
 
-/* TEXT STYLES */
+/* TEXT */
 h1 {
     color: purple;
 }
@@ -104,7 +101,7 @@ a {
 }
 
 a:hover {
-    color: white;
     background-color: purple;
+    color: white;
     padding: 3px;
 }
