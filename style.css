@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: #fde7ee;
+}
+
+/* MAIN CONTAINER */
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* TOP SECTION */
+.top {
+    height: 20%;
+    display: flex;
+    background-color: pink;
+}
+
+/* LOGO */
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HEADER */
+.header {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MENU BAR */
+.menu {
+    height: 10%;
+    display: flex;
+    background-color: #f8bbd0;
+}
+
+.menu div {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTENT AREA */
+.content {
+    height: 70%;
+    display: flex;
+}
+
+/* LEFT SERVICES PANEL */
+.services {
+    width: 20%;
+    padding: 15px;
+    border-right: 4px solid white;   /* WHITE BAR */
+}
+
+/* RIGHT CONTENT PANEL */
+.main {
+    width: 80%;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+/* HIDE ALL PAGES */
+.page {
+    display: none;
+}
+
+/* SHOW CLICKED PAGE */
+.page:target {
+    display: block;
+}
+
+/* TEXT STYLES */
+h1 {
+    color: purple;
+}
+
+h2, h3 {
+    color: darkmagenta;
+    margin-bottom: 10px;
+}
+
+p, li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+    background-color: purple;
+    padding: 3px;
+}
